@@ -14,9 +14,12 @@ public class DialogueTrigger : MonoBehaviour {
     /// </summary>
     public void TriggerDialogue ()
 	{
-        //FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
 
+        //FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        //commented above out bc a singleton is more performant
         DialogueManager.Instance.StartDialogue(dialogue);
+
+
 
     }
 

@@ -87,7 +87,7 @@ public class DialogueManager : MonoBehaviour {
 	}
 
     /// <summary>
-    /// Usuually calling this on click or button press for a continue button. Display next sentence, spelling out one letter at a time
+    /// Display conversation text, spelling out one letter at a time
     /// </summary>
 	public void DisplayNextSentence ()
 	{
